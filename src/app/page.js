@@ -1,3 +1,9 @@
+import { Text } from '@chakra-ui/react'
+
 export default function Home() {
-  return <>Hola Guapos te amamos Lingie y Para mi calvito favorito</>;
+  return( 
+    <>
+      <Text opacity="50%">HOla mundo</Text>
+    </>
+  );
 }

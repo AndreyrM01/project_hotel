@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <br>
+  :sparkles: Travel to Sky :sparkles:
+  <br>
+</h1>
 
-## Getting Started
+## 📦 Instalación
 
-First, run the development server:
+El proyecto corre sobre [NextJS](https://nextjs.org/), se esta usando version 13. Dependencias:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- [NodeJS](https://nodejs.org/en) v18 ó superior
+
+> 💡 Se recomienda usar [nvm](https://github.com/nvm-sh/nvm) para instalar y manejar las versiones de NodeJS. Debería de funcionar si deja que `nvm` instale la version default (latest) de NodeJS y `npm`
+
+## 🚶‍♂️Como iniciar
+
+Clonar el repositorio
+
+```
+git clone git@github.com:cetav-ddw/lalibertad-cetav.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> 💡 Todos los comandos se corren desde el `root` del repositorio.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Asegúrese de tener la versión de NodeJS correcta, v18 o superior; si tiene [nvm](https://github.com/nvm-sh/nvm) instalado puede correr
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+nvm use
+```
 
-## Learn More
+Una vez que se clonó el repositorio, instale las dependencias:
 
-To learn more about Next.js, take a look at the following resources:
+```
+npm install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para correr el server en modo desarrollo (dev) corra:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+npm run dev
+```
 
-## Deploy on Vercel
+Esto levantará el server local en http://localhost:3000
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### :shipit: Otros comandos útiles
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Revisar _linting errors_ usando`eslint`
+
+```
+npm run lint
+```
+
+Formatear código usando `prettier`
+
+```
+npm run format
+```
+
+## 🥞 Organización del repositorio
+
+TBD - agregar detalles de que va en cada folder y convenciones, ej. cuando usar extensión `.jsx` ó `.js`

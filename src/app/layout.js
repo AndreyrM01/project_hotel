@@ -1,6 +1,5 @@
-import { Inter } from 'next/font/google';
-
-const inter = Inter({ subsets: ['latin'] });
+import { Providers } from './providers';
+import MainContent from './componets/MainContent';
 
 export const metadata = {
   title: 'Hotel',
@@ -9,8 +8,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="es">
+      <body>
+        <Providers>
+          <MainContent>{children}</MainContent>
+        </Providers>
+      </body>
     </html>
   );
 }

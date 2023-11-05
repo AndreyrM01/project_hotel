@@ -1,14 +1,14 @@
-import { Poppins } from 'next/font/google';
+import { Montserrat } from 'next/font/google';
 
-const poppins = Poppins({
+const montserrat = Montserrat({
   subsets: ['latin'],
   display: 'swap',
 });
 
 const typography = {
   fonts: {
-    body: poppins.style.fontFamily,
-    heading: poppins.style.fontFamily,
+    body: montserrat.style.fontFamily,
+    heading: montserrat.style.fontFamily,
   },
 };
 

@@ -1,6 +1,6 @@
 import { extendTheme } from '@chakra-ui/react';
-import typography from './foundations/typography';
-import colors from './foundations/colors';
+import typography from './foundation/typography';
+import colors from './foundation/colors';
 
 const overrides = {
   ...typography,

@@ -13,6 +13,7 @@ const MainNavigation = () => {
       alignItems="center"
       p={4}
       justifyContent="space-between"
+      color="#ffffff"
     >
       <Box display="flex" flex="1" justifyContent="center">
         <NavLink href="/" currentPath={pathname}>

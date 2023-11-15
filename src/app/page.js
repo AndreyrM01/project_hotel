@@ -1,9 +1,9 @@
 import Header from './componets/Header';
 
 export default function Home() {
-  return( 
+  return (
     <>
-      <Header/>
+     <Header/>
     </>
   );
 }

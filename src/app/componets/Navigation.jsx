@@ -1,7 +1,11 @@
-import { Box, Link } from '@chakra-ui/react';
-import { Link as NextLink } from 'next/link';
+'use client'
 
-const Navigation = () => {
+import { Box, Link } from '@chakra-ui/react';
+import { Link as NextLink, usePathname } from 'next/navigation';
+
+const MainNavigation = () => {
+  const pathname = usePathname();
+
   return (
     <Box
       as="nav"
@@ -11,39 +15,37 @@ const Navigation = () => {
       justifyContent="space-between"
     >
       <Box display="flex" flex="1" justifyContent="center">
-        <Link
-          as={NextLink}
-          href="/"
-          _hover={{ textDecoration: 'underline' }}
-          px={4}
-          py="2"
-          mx="1"
-        >
+        <NavLink href="/" currentPath={pathname}>
           Home
-        </Link>
-        <Link
-          as={NextLink}
-          href="/destinies"
-          _hover={{ textDecoration: 'underline' }}
-          px={4}
-          py="2"
-          mx="1"
-        >
+        </NavLink>
+        <NavLink href="/destinies" currentPath={pathname}>
           Destinies
-        </Link>
-        <Link
-          as={NextLink}
-          href="/contact"
-          _hover={{ textDecoration: 'underline' }}
-          px={4}
-          py="2"
-          mx="1"
-        >
+        </NavLink>
+        <NavLink href="/contact" currentPath={pathname}>
           Contact Us
-        </Link>
+        </NavLink>
       </Box>
     </Box>
   );
 };
 
-export default Navigation;
+const NavLink = ({ href, currentPath, children }) => {
+  return (
+    <Link
+      as={NextLink}
+      href={href}
+      _hover={{
+        color: '#427FDF',
+      }}
+      borderBottom={currentPath === href ? '2px solid #427FDF' : 'none'}
+      px={4}
+      py="2"
+      mx="1"
+    >
+      {children}
+    </Link>
+  );
+};
+
+
+export default MainNavigation;

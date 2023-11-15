@@ -1,9 +1,9 @@
-import Navigation from './componets/Navigation';
+import Header from './componets/Header';
 
 export default function Home() {
   return( 
     <>
-      <Navigation />
+      <Header/>
     </>
   );
 }

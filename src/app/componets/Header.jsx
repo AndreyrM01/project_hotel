@@ -9,7 +9,9 @@ const Header = () => {
     <>
       <Box
       backgroundImage={PageHeadingInfo.Home.imgSrc}
-      width="100%"
+      width="1200px"
+      ml="auto"
+      mr="auto"
       h="30rem"
       >
       <Flex

@@ -6,6 +6,7 @@ const colors = {
   hoverColor: '#131b13',
   iconColor: '#425A41',
   bgColor: '#1E1E1E',
+  textQuote:'#E4E9E2',
 };
 
 export default colors;

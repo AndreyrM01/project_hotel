@@ -1,5 +1,5 @@
 import { FaSearch } from 'react-icons/fa';
-import { Box, Flex, Text } from '@chakra-ui/react';
+import { Box, Flex, Text} from '@chakra-ui/react';
 import MainNavigation from './Navigation';
 import PageHeadingInfo from '../content/PageHeading';
 import PageHeading from './PageHeading';
@@ -8,11 +8,13 @@ const Header = () => {
   return (
     <>
       <Box
-      backgroundImage={PageHeadingInfo.Home.imgSrc}
-      width="1200px"
-      ml="auto"
-      mr="auto"
-      h="30rem"
+        backgroundImage={PageHeadingInfo.Home.imgSrc}
+        backgroundRepeat="no-repeat"
+        backgroundSize="cover"
+        width="100%"  // Ajustado al 100% del ancho
+        ml="auto"
+        mr="auto"
+        minHeight="30rem"
       >
       <Flex
       alignItems="center"

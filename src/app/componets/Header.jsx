@@ -1,14 +1,13 @@
 import { FaSearch } from 'react-icons/fa';
 import { Box, Flex, Text} from '@chakra-ui/react';
 import MainNavigation from './Navigation';
-import PageHeadingInfo from '../content/PageHeading';
-import PageHeading from './PageHeading';
 
-const Header = () => {
+
+const Header = ({imgSrc}) => {
   return (
     <>
       <Box
-        backgroundImage={PageHeadingInfo.Home.imgSrc}
+        backgroundImage={imgSrc}
         backgroundRepeat="no-repeat"
         backgroundSize="cover"
         width="100%"  // Ajustado al 100% del ancho
@@ -33,11 +32,6 @@ const Header = () => {
           <FaSearch size={20} color="#ffffff" />
         </Box>
       </Flex>
-      <PageHeading
-        imgSrc={PageHeadingInfo.Home.imgSrc}
-        title={PageHeadingInfo.Home.title}
-        text={PageHeadingInfo.Home.text}
-      />
       </Box>
     </>
   );

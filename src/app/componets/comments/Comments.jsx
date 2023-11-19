@@ -11,7 +11,13 @@ import {
 
 const Comments = ({ name, quote, avatarSrc }) => {
   return (
-    <Card maxW="40%" m="1" bgColor="quoteBgColor" borderRadius="30px" border="2px solid #799176">
+    <Card
+      maxW="40%"
+      m="1"
+      bgColor="quoteBgColor"
+      borderRadius="30px"
+      border="2px solid #799176"
+    >
       <CardHeader>
         <Flex spacing="4">
           <Flex flex="1" gap="4" alignItems="center" flexWrap="wrap">

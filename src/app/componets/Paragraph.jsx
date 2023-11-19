@@ -1,9 +1,9 @@
 import { Box, Heading, Text } from '@chakra-ui/react';
 
-const Paragraph = ({ title, info} ) =>{
+const Paragraph = ({ title, info}) =>{
   return(
     <>
-      <Box color="#ffffff" my="70px" w="90%" pos="relative" left="80px">
+      <Box color="#ffffff" mb="50px" w="90%" pos="relative" left="80px">
         <Heading>
           {title}
         </Heading>

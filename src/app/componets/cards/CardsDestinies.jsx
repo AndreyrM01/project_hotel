@@ -9,9 +9,10 @@ import {
   CardBody,
   CardFooter,
 } from '@chakra-ui/react';
+import Link from 'next/link';
 import { FaBookmark, FaStar } from 'react-icons/fa';
 
-const CardsD = ({ name, temperature, rating, imgSrc }) => {
+const CardsD = ({ name, temperature, rating, imgSrc, enlace }) => {
   return (
     <>
       <Card
@@ -68,6 +69,8 @@ const CardsD = ({ name, temperature, rating, imgSrc }) => {
             borderRadius="10px"
             border="2px solid #799176"
             color="#ffffff"
+            href={enlace}
+            as={Link}
           >
             Explore
           </Button>

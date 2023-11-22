@@ -1,6 +1,6 @@
 import { Box } from '@chakra-ui/react';
 
-const ImageBox = ({ backgroundImage, ...props }) => {
+const ImageRoomBox = ({ backgroundImage, ...props }) => {
   return (
     <Box
       backgroundImage={backgroundImage}
@@ -15,4 +15,4 @@ const ImageBox = ({ backgroundImage, ...props }) => {
   );
 };
 
-export default ImageBox;
+export default ImageRoomBox;

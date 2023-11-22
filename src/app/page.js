@@ -6,6 +6,7 @@ import PageHeading from './componets/PageHeading';
 import PageHeadingInfo from './content/PageHeading';
 import pInfo from './content/ParagraphInfo';
 import headingInfo from './content/HeadingInfo';
+import TabsDandH from './componets/HomeTabs';
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       title={headingInfo.Home.title}
       text={headingInfo.Home.text}
       />
+      <TabsDandH/>
       <Paragraph
       title={pInfo.Home.title}
       info={pInfo.Home.info}

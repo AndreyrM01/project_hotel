@@ -30,10 +30,10 @@ const HRoomsInfo = {
     room4Img: "/images/room4-suiza.jpg",
   },
   Maldives:{
-    room1Img: "/images/room1-maldivas.jpg",
-    room2Img: "/images/room2-maldivas.jpg",
-    room3Img: "/images/room3-maldivas.jpg",
-    room4Img: "/images/room4-maldivas.jpg",
+    room1Img: "/images/room1-maldives.jpg",
+    room2Img: "/images/room2-maldives.jpg",
+    room3Img: "/images/room3-maldives.jpg",
+    room4Img: "/images/room4-maldives.jpg",
   },
   Canada:{
     room1Img: "/images/room1-canada.jpg",

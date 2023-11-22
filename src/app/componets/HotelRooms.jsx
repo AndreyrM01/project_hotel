@@ -5,7 +5,7 @@ import ImageBox from './ImgRoomsBox';
 const HotelRoom = () => {
   return (
     <>
-      <Box ml="220px" mb="100px" display="flex">
+      <Box ml="150px" mr="100px" mb="100px" display="flex">
         <ImageBox backgroundImage={HRoomsInfo.NewYork.room1Img} />
         <ImageBox backgroundImage={HRoomsInfo.NewYork.room2Img} />
         <ImageBox backgroundImage={HRoomsInfo.NewYork.room3Img} />

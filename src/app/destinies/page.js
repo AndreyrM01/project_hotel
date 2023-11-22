@@ -9,8 +9,8 @@ import AttractionInfo from "../content/DestinyAttraction"
 import HotelAttraction from "../componets/HotelAttraction"
 import HAttractionInfo from "../content/HotelAttraction"
 import HotelRoom from '../componets/HotelRooms';
-import HRoomsInfo from "../content/HotelRoomsInfo"
-
+import RoomInfo from '../componets/RoomDetails';
+import SilvestreGallery from '../componets/SilvestreGallery';
 
 export default function Destinies() {
   return (
@@ -21,24 +21,18 @@ export default function Destinies() {
         text={headingInfo.Destinies.text}
       />
       <CardsList destinies={DestinyInfo.Destinies} />
-
       <Attraction
         title={AttractionInfo.NewYork.title}
         text={AttractionInfo.NewYork.text}
         imgSrc={AttractionInfo.NewYork.imgSrc}
       />
-
       <HotelAttraction
         text={HAttractionInfo.NewYork.text}
         imgSrc={HAttractionInfo.NewYork.imgSrc}
       />
-
-      <HotelRoom 
-        room1={HRoomsInfo.NewYork.room1}
-        room2={HRoomsInfo.NewYork.room2}
-        room3={HRoomsInfo.NewYork.room3}
-        room4={HRoomsInfo.NewYork.room4} 
-      />
+      <HotelRoom/>
+      <RoomInfo/>
+      <SilvestreGallery/>
     </>
   );
 }

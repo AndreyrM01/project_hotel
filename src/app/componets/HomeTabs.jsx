@@ -76,7 +76,7 @@ const TabsDandH = () => {
                  }}
                 >
                   <Image
-                    src="/images/canada-bg.jpg"
+                    src="/images/canada.jpg"
                     alt=""
                     style={{ width: '300px', height: '500px' }}
                   />

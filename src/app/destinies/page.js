@@ -11,6 +11,7 @@ import HAttractionInfo from "../content/HotelAttraction"
 import HotelRoom from '../componets/HotelRooms';
 import RoomInfo from '../componets/RoomDetails';
 import SilvestreGallery from '../componets/SilvestreGallery';
+import Amenities from '../componets/RoomAmenities';
 
 export default function Destinies() {
   return (
@@ -41,6 +42,7 @@ export default function Destinies() {
       <HotelRoom/>
       <RoomInfo/>
       <SilvestreGallery/>
+      <Amenities/>
     </>
   );
 }

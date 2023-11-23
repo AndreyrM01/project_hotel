@@ -7,7 +7,7 @@ const HotelCard = ({imgSrc, title, text}) => {
       <CardBody>
         <Stack mt="6" spacing="3">
           <Heading size="md">{title}</Heading>
-          <Text w="350px" display="flex" justifyContent="center" alignItems="center">{text}</Text>
+          <Text w="100%" display="flex" justifyContent="center" alignItems="center">{text}</Text>
         </Stack>
       </CardBody>
     </Card>

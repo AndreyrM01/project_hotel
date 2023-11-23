@@ -10,6 +10,7 @@ const Header = ({imgSrc}) => {
         backgroundImage={imgSrc}
         backgroundRepeat="no-repeat"
         backgroundSize="cover"
+        backgroundPosition="center"
         width="100%"
         ml="auto"
         mr="auto"

@@ -4,7 +4,7 @@ const DestinyInfo = {
       id: 'newyork',
       name: 'New York, USA',
       imgSrc:
-        '/images/newYork.jpg',
+        '/images/newYork-bg.jpg',
       temperature:
         '20°C',
       rating:
@@ -26,7 +26,7 @@ const DestinyInfo = {
       id: 'tokyo',
       name: 'Tokyo, Japan',
       imgSrc:
-        '/images/tokyo.jpg',
+        '/images/tokyo-bg.jpg',
       temperature:
         '5°C',
       rating:

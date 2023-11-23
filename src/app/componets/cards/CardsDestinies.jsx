@@ -44,6 +44,7 @@ const CardsD = ({ name, temperature, rating, imgSrc, enlace }) => {
             h="200px"
             backgroundSize="cover"
             backgroundRepeat="no-repeat"
+            backgroundPosition="center"
             mr="auto"
             ml="auto"
             position="relative"

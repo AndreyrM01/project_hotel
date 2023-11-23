@@ -6,7 +6,7 @@ export default function CardsList ({destinies}){
     <>
     {destinies?.length > 0 ? (
       <Box mb="16px" display="flex" flexWrap="wrap" justifyContent="center" alignItems="center">
-        {destinies.map(({id, name, temperature, rating, imgSrc }) => {
+        {destinies.map(({id, name, temperature, rating, imgSrc, enlace }) => {
           return(
             <CardsD
             key={id}
@@ -14,6 +14,7 @@ export default function CardsList ({destinies}){
             temperature={temperature}
             rating={rating}
             imgSrc={imgSrc}
+            enlace={enlace}
             />
           );
         })}

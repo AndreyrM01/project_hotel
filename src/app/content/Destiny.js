@@ -9,6 +9,7 @@ const DestinyInfo = {
         '20°C',
       rating:
       '4',
+      enlace:'/destiny/NewYork',
     },
     {
       id: 'seoul',
@@ -19,6 +20,7 @@ const DestinyInfo = {
         '7°C',
       rating:
       '4.5',
+      enlace:'/destiny/Seoul',
     },
     {
       id: 'tokyo',
@@ -29,6 +31,7 @@ const DestinyInfo = {
         '5°C',
       rating:
       '4.8',
+      enlace:'/destiny/Tokyo',
     },
     {
       id: 'oslo',
@@ -39,6 +42,7 @@ const DestinyInfo = {
         '-2°C',
       rating:
       '4.8',
+      enlace:'/destiny/Oslo',
     },
     {
       id: 'berna',
@@ -49,6 +53,7 @@ const DestinyInfo = {
         '8°C',
       rating:
       '4',
+      enlace:'/destiny/Berna',
     },
     {
       id: 'maldives',
@@ -59,6 +64,7 @@ const DestinyInfo = {
         '18°C',
       rating:
       '4.9',
+      enlace:'/destiny/Maldives',
     },
     {
       id: 'toronto',
@@ -69,6 +75,7 @@ const DestinyInfo = {
         '12°C',
       rating:
       '4.5',
+      enlace:'/destiny/Toronto',
     },
   ]
 };

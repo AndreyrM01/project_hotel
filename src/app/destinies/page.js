@@ -20,7 +20,15 @@ export default function Destinies() {
         title={headingInfo.Destinies.title}
         text={headingInfo.Destinies.text}
       />
-      <CardsList destinies={DestinyInfo.Destinies} />
+      
+      <CardsList destinies={DestinyInfo.Destinies}
+      enlace={DestinyInfo.Destinies.enlace}
+      imgSrc={DestinyInfo.Destinies.imgSrc}
+      key={DestinyInfo.Destinies.id}
+      temperature={DestinyInfo.Destinies.temperature}
+      rating={DestinyInfo.Destinies.rating}
+      />
+
       <Attraction
         title={AttractionInfo.NewYork.title}
         text={AttractionInfo.NewYork.text}

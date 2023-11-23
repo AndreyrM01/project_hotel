@@ -4,6 +4,8 @@ import Paragraph from '@/app/componets/Paragraph';
 import headingInfo from '@/app/content/HeadingInfo';
 import PageHeadingInfo from '@/app/content/PageHeading';
 import pInfo from '@/app/content/ParagraphInfo';
+import HotelsList from '@/app/componets/hotelcard/HotelList';
+import HotelsInfo from '@/app/content/HotelCardInfo';
 
 export default function Maldives() {
   return (
@@ -17,6 +19,12 @@ export default function Maldives() {
       <Paragraph
       title={pInfo.Destinie.title}
       info={pInfo.Destinie.info}
+      />
+
+      <HotelsList hotels={HotelsInfo.Maldives}
+      title={HotelsInfo.Maldives.title}
+      imgSrc={HotelsInfo.Maldives.imgSrc}
+      text={HotelsInfo.Maldives.text}
       />
     </>
   );

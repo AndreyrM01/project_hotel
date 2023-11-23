@@ -5,7 +5,7 @@ export default function CardsList ({destinies}){
   return(
     <>
     {destinies?.length > 0 ? (
-      <Box mb="16px" display="flex" flexWrap="wrap" justifyContent="center" alignItems="center">
+      <Box mb="16px" w="50%" display="flex" flexWrap="wrap" justifyContent="center" alignItems="center" pos="relative" left="23%">
         {destinies.map(({id, name, temperature, rating, imgSrc, enlace }) => {
           return(
             <CardsD

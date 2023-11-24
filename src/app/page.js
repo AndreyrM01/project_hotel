@@ -7,7 +7,7 @@ import PageHeadingInfo from './content/PageHeading';
 import pInfo from './content/ParagraphInfo';
 import headingInfo from './content/HeadingInfo';
 import TabsDandH from './componets/HomeTabs';
-
+import Footer from './componets/Footer';
 
 export default function Home() {
   return (
@@ -25,6 +25,7 @@ export default function Home() {
       info={pInfo.Home.info}
       />
       <CommentsList comments={comments.costumers} />
+      <Footer/>
     </>
   );
 }

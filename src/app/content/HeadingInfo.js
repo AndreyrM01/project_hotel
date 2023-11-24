@@ -27,6 +27,9 @@ const headingInfo ={
   },
   Toronto:{
     title:"Toronto",
+  },
+  Contact: {
+    title: "Contact",
   }
 }
 

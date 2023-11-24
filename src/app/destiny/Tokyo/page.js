@@ -6,6 +6,9 @@ import PageHeadingInfo from '@/app/content/PageHeading';
 import pInfo from '@/app/content/ParagraphInfo';
 import HotelsInfo from '@/app/content/HotelCardInfo';
 import HotelsList from '@/app/componets/hotelcard/HotelList';
+import Attraction from '@/app/componets/DestinyAttraction';
+import AttractionInfo from '@/app/content/DestinyAttractionInfo';
+import Footer from '@/app/componets/Footer';
 
 export default function Tokyo() {
   return (
@@ -26,7 +29,12 @@ export default function Tokyo() {
       imgSrc={HotelsInfo.Tokyo.imgSrc}
       text={HotelsInfo.Tokyo.text}
       />
+      <Attraction
+        title={AttractionInfo.Tokyo.title}
+        text={AttractionInfo.Tokyo.text}
+        imgSrc={AttractionInfo.Tokyo.imgSrc}
+      />
+      <Footer/>
     </>
   );
 }
-

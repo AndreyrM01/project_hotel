@@ -6,6 +6,9 @@ import PageHeadingInfo from '@/app/content/PageHeading';
 import pInfo from '@/app/content/ParagraphInfo';
 import HotelsInfo from '@/app/content/HotelCardInfo';
 import HotelsList from '@/app/componets/hotelcard/HotelList';
+import Attraction from '@/app/componets/DestinyAttraction';
+import AttractionInfo from '@/app/content/DestinyAttractionInfo';
+import Footer from '@/app/componets/Footer';
 
 export default function NewYork() {
   return (
@@ -26,6 +29,12 @@ export default function NewYork() {
       imgSrc={HotelsInfo.NewYork.imgSrc}
       text={HotelsInfo.NewYork.text}
       />
+      <Attraction
+        title={AttractionInfo.NewYork.title}
+        text={AttractionInfo.NewYork.text}
+        imgSrc={AttractionInfo.NewYork.imgSrc}
+      />
+      <Footer/>
     </>
   );
 }

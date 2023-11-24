@@ -6,6 +6,9 @@ import PageHeadingInfo from '@/app/content/PageHeading';
 import pInfo from '@/app/content/ParagraphInfo';
 import HotelsList from '@/app/componets/hotelcard/HotelList';
 import HotelsInfo from '@/app/content/HotelCardInfo';
+import Attraction from '@/app/componets/DestinyAttraction';
+import AttractionInfo from '@/app/content/DestinyAttractionInfo';
+import Footer from '@/app/componets/Footer';
 
 export default function Maldives() {
   return (
@@ -26,6 +29,12 @@ export default function Maldives() {
       imgSrc={HotelsInfo.Maldives.imgSrc}
       text={HotelsInfo.Maldives.text}
       />
+      <Attraction
+        title={AttractionInfo.Maldives.title}
+        text={AttractionInfo.Maldives.text}
+        imgSrc={AttractionInfo.Maldives.imgSrc}
+      />
+      <Footer/>
     </>
   );
 }

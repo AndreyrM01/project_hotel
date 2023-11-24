@@ -6,6 +6,9 @@ import PageHeadingInfo from '@/app/content/PageHeading';
 import pInfo from '@/app/content/ParagraphInfo';
 import HotelsList from '@/app/componets/hotelcard/HotelList';
 import HotelsInfo from '@/app/content/HotelCardInfo';
+import Attraction from '@/app/componets/DestinyAttraction';
+import AttractionInfo from '@/app/content/DestinyAttractionInfo';
+import Footer from '@/app/componets/Footer';
 
 export default function Seoul() {
   return (
@@ -26,6 +29,12 @@ export default function Seoul() {
       imgSrc={HotelsInfo.Seoul.imgSrc}
       text={HotelsInfo.Seoul.text}
       />
+      <Attraction
+        title={AttractionInfo.SouthKorea.title}
+        text={AttractionInfo.SouthKorea.text}
+        imgSrc={AttractionInfo.SouthKorea.imgSrc}
+      />
+      <Footer/>
     </>
   );
 }

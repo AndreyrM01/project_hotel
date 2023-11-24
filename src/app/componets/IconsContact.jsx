@@ -15,30 +15,30 @@ const IconContact = () => {
           <FaPhone 
           color="#ffffff" 
           style={{
-            width:"70px",
+            width:"55px",
             height:"90px",
             position:"relative",
-            left:"20px"
+            left:"145px"
           }}
           />
           <Box borderX="2px solid #ffffff" h="100px" w="200px">
             <FaMapMarkerAlt
               color="#ffffff"
               style={{
-                width: '150px',
+                width: '55px',
                 height: '90px',
                 position: 'relative',
-                left: '25px',
+                left: '68px',
               }}
             />
           </Box>
           <FaEnvelope 
           color="#ffffff" 
           style={{
-            width:"70px",
+            width:"55px",
             height:"90px",
             position:"relative",
-            right:"20px"
+            right:"145px"
           }}
           />
         </Box>

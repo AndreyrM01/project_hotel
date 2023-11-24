@@ -6,6 +6,9 @@ import headingInfo from '@/app/content/HeadingInfo';
 import HotelsInfo from '@/app/content/HotelCardInfo';
 import PageHeadingInfo from '@/app/content/PageHeading';
 import pInfo from '@/app/content/ParagraphInfo';
+import Attraction from '@/app/componets/DestinyAttraction';
+import AttractionInfo from '@/app/content/DestinyAttractionInfo';
+import Footer from '@/app/componets/Footer';
 
 export default function Berna() {
   return (
@@ -26,6 +29,12 @@ export default function Berna() {
       imgSrc={HotelsInfo.Berna.imgSrc}
       text={HotelsInfo.Berna.text}
       />
+      <Attraction
+        title={AttractionInfo.Switzerland.title}
+        text={AttractionInfo.Switzerland.text}
+        imgSrc={AttractionInfo.Switzerland.imgSrc}
+      />
+      <Footer/>
     </>
   );
 }
